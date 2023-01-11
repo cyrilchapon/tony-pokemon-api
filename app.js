@@ -1,4 +1,5 @@
 const express = require('express')
+const bodyparser = require('body-parser')
 const favicon = require('serve-favicon')
 const sequelize = require('./src/db/sequelize')
 
@@ -7,7 +8,7 @@ const port = process.env.PORT || 3000
 
 app
 .use(favicon('./favicon.ico'))
-.use(express.json())
+.use(bodyparser.json())
 
 sequelize.initDb()
 
