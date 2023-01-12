@@ -13,7 +13,7 @@ app
 sequelize.initDb()
 
 app.get('/', (req, res) => {
-  const message = 'hello heroku'
+  const message = 'Hello, bienvenu sur mon Api ! Allez à l\'adresse "/api" afin de connaitre vos possibilité d\'accès'
   res.json({message})
 })
 

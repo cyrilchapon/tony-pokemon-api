@@ -38,6 +38,8 @@ const initDb = () => {
         type: endpoint.type,
         name: endpoint.name,
         adress: endpoint.adress,
+        description: endpoint.description,
+        condition: endpoint.condition
       }).then(endpoint => console.log(endpoint.toJSON()))
     })
 
