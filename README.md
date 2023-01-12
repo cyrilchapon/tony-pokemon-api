@@ -4,6 +4,12 @@
 
 ### Démarrage
 
+initialisé les packages :
+
+```js
+npm install
+```
+
 ```js
 npm run dev
 ```
