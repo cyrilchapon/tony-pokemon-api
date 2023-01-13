@@ -2,15 +2,37 @@
 
 ## Hello ! Voiçi ma toute première API REST en Node.js
 
-### Démarrage
+### Installation
 
-initialisé les packages :
+- Installer les dépendances :
 
-```js
+```bash
 npm install
 ```
 
-```js
+- Démarrer un serveur MySql
+
+```bash
+docker-compose up
+```
+
+- Configurer l'application
+```bash
+cp .env.example .env
+```
+
+- Préparer la base de donnée
+```bash
+npm run db:create
+npm run db:migrate
+npm run db:seed
+```
+
+### Démarrage
+
+- Lancer le serveur
+
+```bash
 npm run dev
 ```
 

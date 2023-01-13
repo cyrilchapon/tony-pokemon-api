@@ -3,11 +3,13 @@ const validTypes = ['Plante', 'Poison', 'Feu', 'Eau', 'Insecte', 'Vol', 'Normal'
 module.exports = (sequelize, DataTypes) => {
     return sequelize.define('Pokemon', {
       id: {
+        field: 'id',
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
       },
       name: {
+        field: 'name',
         type: DataTypes.STRING,
         allowNull: false,
         unique: {
@@ -19,6 +21,7 @@ module.exports = (sequelize, DataTypes) => {
         }
       },
       hp: {
+        field: 'hp',
         type: DataTypes.INTEGER,
         allowNull: false,
         validate: {
@@ -35,6 +38,7 @@ module.exports = (sequelize, DataTypes) => {
         }
       },
       cp: {
+        field: 'cp',
         type: DataTypes.INTEGER,
         allowNull: false,
         validate: {
@@ -51,6 +55,7 @@ module.exports = (sequelize, DataTypes) => {
         }
       },
       picture: {
+        field: 'picture',
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
@@ -59,6 +64,7 @@ module.exports = (sequelize, DataTypes) => {
         }
       },
       types: {
+        field: 'types',
         type: DataTypes.STRING,
         allowNull: false,
         get() {
@@ -84,6 +90,7 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     }, {
+      tableName: 'pokemons',
       timestamps: true,
       createdAt: 'created',
       updatedAt: false

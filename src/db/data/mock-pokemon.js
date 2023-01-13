@@ -5,7 +5,7 @@ const pokemons = [
      hp: 25,
      cp: 5,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
-     types: ["Plante", "Poison"],
+     types: "Plante,Poison",
      created: new Date()
     },
     {
@@ -14,7 +14,7 @@ const pokemons = [
      hp: 28,
      cp: 6,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
-     types: ["Feu"],
+     types: "Feu",
      created: new Date()
     },
     {
@@ -23,7 +23,7 @@ const pokemons = [
      hp: 21,
      cp: 4,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
-     types: ["Eau"],
+     types: "Eau",
      created: new Date()
     },
     {
@@ -32,7 +32,7 @@ const pokemons = [
      hp: 16,
      cp: 2,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
-     types: ["Insecte", "Poison"],
+     types: "Insecte,Poison",
      created: new Date()
     },
     {
@@ -41,7 +41,7 @@ const pokemons = [
      hp: 30,
      cp: 7,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
-     types: ["Normal", "Vol"],
+     types: "Normal,Vol",
      created: new Date()
     },
     {
@@ -50,7 +50,7 @@ const pokemons = [
      hp: 18,
      cp: 6,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
-     types: ["Normal"],
+     types: "Normal",
      created: new Date()
     },
     {
@@ -59,7 +59,7 @@ const pokemons = [
      hp: 14,
      cp: 5,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png",
-     types: ["Normal", "Vol"],
+     types: "Normal,Vol",
      created: new Date()
     },
     {
@@ -68,7 +68,7 @@ const pokemons = [
      hp: 16,
      cp: 4,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png",
-     types: ["Poison"],
+     types: "Poison",
      created: new Date()
     },
     {
@@ -77,7 +77,7 @@ const pokemons = [
      hp: 21,
      cp: 7,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
-     types: ["Electrik"],
+     types: "Electrik",
      created: new Date()
     },
     {
@@ -86,7 +86,7 @@ const pokemons = [
      hp: 19,
      cp: 3,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
-     types: ["Normal"],
+     types: "Normal",
      created: new Date()
     },
     {
@@ -95,7 +95,7 @@ const pokemons = [
      hp: 25,
      cp: 5,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png",
-     types: ["Fée"],
+     types: "Fée",
      created: new Date()
     },
     {
@@ -104,7 +104,7 @@ const pokemons = [
      hp: 17,
      cp: 8,
      picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
-     types: ["Feu"],
+     types: "Feu",
      created: new Date()
     }
    ]
